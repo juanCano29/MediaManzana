@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen5"
+
+    android:orientation="vertical"
+    tools:context=".Main6Activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a8c74765"
+        android:gravity="top|center"
+        android:orientation="vertical">
+     <TextView
+         android:layout_width="307dp"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="Registro"
+         android:layout_marginTop="30dp"
+         android:textColor="@color/colorBlanco"
+         android:textSize="32dp" />
+        <EditText
+            android:paddingLeft="15dp"
+            android:hint="Nombres"
+            android:layout_width="238dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/btndatos" />
+           <EditText
+               android:paddingLeft="15dp"
+               android:hint="Apellido Paterno"
+               android:layout_width="238dp"
+               android:layout_height="40dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/btndatos" />
+           <EditText
+               android:paddingLeft="15dp"
+               android:hint="Apellido Materno"
+               android:layout_width="238dp"
+               android:layout_height="40dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/btndatos" />
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:layout_marginTop="10dp">
+
+              <Spinner
+                  android:paddingLeft="15dp"
+
+                  android:id="@+id/CmbOpciones"
+                  android:layout_width="113dp"
+                  android:layout_height="33dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="185dp"
+                  android:layout_marginTop="1dp"
+                  android:background="@drawable/btndatos" />
+
+
+            <Spinner
+                android:paddingLeft="15dp"
+
+                android:id="@+id/CmbOpciones2"
+                android:layout_width="115dp"
+                android:layout_height="33dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/btndatos" />
+
+        </RelativeLayout>
+
+  <EditText
+      android:paddingLeft="15dp"
+      android:hint="Estatura"
+      android:layout_width="238dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/btndatos" />
+         <EditText
+             android:paddingLeft="15dp"
+             android:hint="Ojos (Opcional)"
+             android:layout_width="238dp"
+             android:layout_height="40dp"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/btndatos" />
+        <EditText
+            android:paddingLeft="15dp"
+            android:hint="Correo"
+            android:layout_width="238dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btndatos" />
+        <EditText
+            android:paddingLeft="15dp"
+            android:hint="Contraseña"
+            android:layout_width="238dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btndatos"
+            android:inputType="textPassword"
+            />
+
+         <TextView
+             android:layout_width="238dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:text="Me Interesa"
+             android:textAlignment="center"
+             android:textColor="@color/colorBlanco"
+             android:textSize="32dp" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/checkH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="14dp"
+            android:text="Hombres"
+            android:textColor="@color/colorBlanco" />
+
+                    <CheckBox
+                        android:id="@+id/checkM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="208dp"
+                        android:layout_marginTop="14dp"
+                        android:text="Mujeres"
+                        android:textColor="@color/colorBlanco" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+          <CheckBox
+              android:id="@+id/checkPer"
+              android:layout_width="wrap_content"
+              android:layout_height="42dp"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="60dp"
+              android:layout_marginTop="30dp"
+              android:text="@string/acuerdo"
+              android:textColor="@color/colorBlanco" />
+            <TextView
+                android:id="@+id/txacu"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:padding="12dp"
+                android:layout_marginLeft="-9dp"
+                android:text="@string/condiciones"
+                android:textColor="#0066FF"
+                />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="256dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/btnlogin"
+            android:text="Registrate"
+            android:textColor="@color/colorBlanco" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

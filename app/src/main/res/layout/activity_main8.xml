@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Main7Activity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/crz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupo"
+        />
+<TextView
+    android:layout_marginTop="50dp"
+    android:id="@+id/textoD"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#C74765"
+    android:textSize="32sp"
+    android:textAlignment="center"
+    android:text="Lo sentimos!"
+    />
+
+<TextView
+    android:layout_marginTop="50dp"
+    android:id="@+id/texto0D"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textAlignment="center"
+    android:textColor="#C74765"
+    android:text="debes aceptar los términos de privacidad y seleccionar el genero(s) al que estas atraido para continuar" />
+ <ScrollView
+     android:layout_marginBottom="90px"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+    <Button
+        android:id="@+id/btncerrar1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnlogin"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar"
+        android:layout_gravity="center"
+        android:textColor="@color/colorBlanco"
+        /></ScrollView>
+
+
+
+
+
+</LinearLayout>

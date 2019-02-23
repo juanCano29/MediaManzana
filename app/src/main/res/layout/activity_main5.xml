@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen3"
+    android:orientation="horizontal"
+    tools:context=".Main5Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a8c74765"
+        android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="21dp"
+           android:layout_marginTop="100dp"
+           android:layout_weight="0.05"
+           android:text="@string/registrer"
+           android:textAlignment="center"
+           android:textColor="@color/colorBlanco"
+           android:textSize="32sp" />
+
+        <EditText
+            android:layout_width="257dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.015"
+            android:background="@drawable/btndatos"
+            android:hint="Correo"
+            android:paddingLeft="14.6dp"
+            android:textColorHint="#707070" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="257dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.015"
+            android:background="@drawable/btndatos"
+            android:hint="Contraseña"
+            android:paddingLeft="14.6dp"
+            android:textColorHint="#707070" />
+        <Button
+            android:layout_width="257dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="0.015"
+            android:background="@drawable/btnlogin"
+            android:text="Siguiente"
+            android:textColor="@color/colorBlanco" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

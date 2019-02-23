@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBlue"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="9"
+        android:src="@drawable/facebooklog" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="6"
+        android:text="Español | Cambiar"
+        android:textColor="@color/colorBlanco" />
+
+
+
+  <EditText
+      android:layout_width="255dp"
+      android:layout_height="0dp"
+      android:layout_gravity="center"
+      android:layout_weight="4"
+      android:hint="Correo electronico o telefono"
+      android:textColorHint="@color/colorBlanco"
+      android:textSize="16sp" />
+
+
+    <EditText
+        android:inputType="textPassword"
+    android:layout_width="256dp"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:layout_weight="4"
+    android:hint="Contraseña"
+    android:textColorHint="@color/colorBlanco"
+    android:textSize="16sp" />
+  <Button
+      android:layout_marginBottom="50dp"
+      android:layout_marginTop="9dp"
+      android:layout_width="252dp"
+      android:layout_height="0dp"
+      android:layout_gravity="center"
+      android:layout_weight="3"
+      android:background="#5474B7"
+      android:text="INICIAR SESION"
+      android:textColor="@color/colorBlanco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Registrate en facebook"
+            android:textColor="@color/colorBlanco"
+            android:textSize="14dp" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="60dp"
+              android:layout_gravity="center"
+              android:layout_weight="1"
+              android:text="¿Necesitas ayuda? "
+              android:textColor="@color/colorBlanco"
+              android:textSize="14dp" />
+    
+</LinearLayout>

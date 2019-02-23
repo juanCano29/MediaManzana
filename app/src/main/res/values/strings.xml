@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Media Manzana</string>
+    <string name="preg_count">No estas suscrito con nosotros? <u>ir al registro</u></string>
+    <string name="acuerdo">Lea los</string>
+    <string name="condiciones"> <u> acuerdos  y politicas de \n  privacidad </u></string>
+    <string name="registrer">Regístrate con tu \n  correo</string>
+</resources>
