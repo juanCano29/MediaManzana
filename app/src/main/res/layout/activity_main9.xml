@@ -54,4 +54,84 @@
 
 </android.support.v7.widget.Toolbar>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+
+
+
+
+
+
+     </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+     android:paddingLeft="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme" >
+
+
+            <LinearLayout
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:src="@drawable/ojo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visitantes"
+            android:textColor="#C74765"
+            />
+
+
+    </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="32dp"
+            android:paddingLeft="14dp"
+            android:src="@drawable/hablar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mensajes"
+            android:textColor="#C74765"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>
+
+
 </RelativeLayout>
