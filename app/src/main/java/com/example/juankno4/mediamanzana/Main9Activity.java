@@ -75,7 +75,7 @@ public class Main9Activity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.conf:
-                Intent s=new Intent(this,Main_Activity10.class);
+                Intent s=new Intent(this,Main12Activity.class);
                 startActivity(s);
                 return true;
             case R.id.acercade:
