@@ -55,6 +55,7 @@
 </android.support.v7.widget.Toolbar>
 
     <ScrollView
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -62,13 +63,45 @@
         android:layout_marginTop="76dp">
 
         <LinearLayout
+
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
 
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
             <android.support.v7.widget.CardView
                  android:layout_marginLeft="-5dp"
+                android:layout_width="198dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagen18"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="-5dp"
+                android:layout_width="198dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/grupo3"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="-5dp"
                 android:layout_width="198dp"
                 android:layout_height="200dp"
                 app:cardCornerRadius="6dp"
@@ -80,8 +113,27 @@
                     android:src="@drawable/corazones2"
                     />
             </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="-5dp"
+                android:layout_width="198dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/corazones2"
+                    />
+            </android.support.v7.widget.CardView>
+           </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
              <android.support.v7.widget.CardView
-                 android:layout_marginLeft="-15dp"
+                 android:layout_marginLeft="-10dp"
                  android:layout_width="198dp"
                  android:layout_height="200dp"
                  app:cardCornerRadius="6dp"
@@ -90,10 +142,49 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:src="@drawable/grupo9"
+                    />
+            </android.support.v7.widget.CardView>
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="-10dp"
+                      android:layout_width="198dp"
+                      android:layout_height="200dp"
+                      app:cardCornerRadius="6dp"
+                      app:cardElevation="10dp"
+                      app:cardUseCompatPadding="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imag34"
+                    />
+            </android.support.v7.widget.CardView>
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="-10dp"
+                      android:layout_width="198dp"
+                      android:layout_height="200dp"
+                      app:cardCornerRadius="6dp"
+                      app:cardElevation="10dp"
+                      app:cardUseCompatPadding="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:src="@drawable/corazones2"
                     />
             </android.support.v7.widget.CardView>
-
+                  <android.support.v7.widget.CardView
+                      android:layout_marginLeft="-10dp"
+                      android:layout_width="198dp"
+                      android:layout_height="200dp"
+                      app:cardCornerRadius="6dp"
+                      app:cardElevation="10dp"
+                      app:cardUseCompatPadding="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/corazones2"
+                    />
+            </android.support.v7.widget.CardView>
+</LinearLayout>
         </LinearLayout>
 
     </ScrollView>
