@@ -15,6 +15,7 @@
     android:background="#a8c74765"
     android:minHeight="?attr/actionBarSize"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/Theme.AppCompat.Light"
     app:buttonGravity="top|bottom">
 
     <ImageView
