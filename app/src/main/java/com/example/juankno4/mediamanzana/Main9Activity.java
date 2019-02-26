@@ -1,5 +1,6 @@
 package com.example.juankno4.mediamanzana;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -33,10 +34,10 @@ public class Main9Activity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
         switch (item.getItemId()) {
             case R.id.conf:
-
+                Intent s=new Intent(this,Main_Activity10.class);
+                startActivity(s);
                 return true;
             case R.id.acercade:
 
