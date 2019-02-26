@@ -1,5 +1,6 @@
 package com.example.juankno4.mediamanzana;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -33,7 +34,8 @@ public class Main11Activity extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case R.id.conf:
-
+                Intent s=new Intent(this,Main12Activity.class);
+                startActivity(s);
                 return true;
             case R.id.acercade:
 
