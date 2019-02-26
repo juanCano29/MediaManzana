@@ -79,7 +79,8 @@ public class Main9Activity extends AppCompatActivity {
                 startActivity(s);
                 return true;
             case R.id.acercade:
-
+                Intent a=new Intent(this,Main7Activity.class);
+                startActivity(a);
                 return true;
             case R.id.contact:
 
