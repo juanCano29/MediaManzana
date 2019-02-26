@@ -1,5 +1,6 @@
 package com.example.juankno4.mediamanzana;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -18,6 +19,7 @@ public class Main9Activity extends AppCompatActivity {
         setSupportActionBar(tool);
         getSupportActionBar().setTitle(null);
 
+
     }
 
     @Override
@@ -25,17 +27,19 @@ public class Main9Activity extends AppCompatActivity {
 
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu,menu);
+
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         switch (item.getItemId()) {
             case R.id.conf:
 
                 return true;
             case R.id.acercade:
-                 
+
                 return true;
             case R.id.contact:
 
@@ -44,4 +48,5 @@ public class Main9Activity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+
 }
