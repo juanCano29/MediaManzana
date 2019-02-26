@@ -82,6 +82,7 @@
                 app:cardElevation="10dp"
                 app:cardUseCompatPadding="true">
                 <ImageView
+                    android:id="@+id/Image1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagen18"
@@ -95,6 +96,7 @@
                 app:cardElevation="10dp"
                 app:cardUseCompatPadding="true">
                 <ImageView
+                    android:id="@+id/Image3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/grupo3"
@@ -140,6 +142,7 @@
                  app:cardElevation="10dp"
                  app:cardUseCompatPadding="true">
                 <ImageView
+                    android:id="@+id/Image2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/grupo9"
@@ -153,6 +156,7 @@
                       app:cardElevation="10dp"
                       app:cardUseCompatPadding="true">
                 <ImageView
+                    android:id="@+id/Image4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imag34"
@@ -191,7 +195,7 @@
 
     <android.support.v7.widget.Toolbar
     android:id="@+id/toolbar"
-     android:paddingLeft="50dp"
+     android:paddingLeft="55dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentStart="true"
@@ -202,6 +206,7 @@
 
 
             <LinearLayout
+                android:id="@+id/grupocam"
                 android:layout_marginLeft="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -211,11 +216,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="14dp"
-            android:src="@drawable/ojo" />
+            android:src="@drawable/camara" />
         <TextView
+            android:textAlignment="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Visitantes"
+            android:text="Medias"
+            android:paddingLeft="5dp"
             android:textColor="#C74765"
             />
 
@@ -223,7 +230,7 @@
     </LinearLayout>
 
                 <LinearLayout
-
+                    android:id="@+id/grupomen"
                     android:layout_marginLeft="50dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
