@@ -44,16 +44,7 @@ acuerdos y políticas de privacidad aprobados por las normas ISO 27001"
      android:layout_width="match_parent"
      android:layout_height="match_parent"
      >
-    <Button
-        android:id="@+id/btncerrar"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btnlogin"
-        android:layout_width="175dp"
-        android:layout_height="wrap_content"
-        android:text="Cerrar"
-        android:layout_gravity="center"
-        android:textColor="@color/colorBlanco"
-        /></ScrollView>
+    </ScrollView>
 
 
 
