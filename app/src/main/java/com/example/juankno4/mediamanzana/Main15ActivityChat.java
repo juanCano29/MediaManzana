@@ -10,8 +10,6 @@ public class Main15ActivityChat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main15_chat);
-        Toolbar tool = findViewById(R.id.toolbar2);
-        setSupportActionBar(tool);
-        getSupportActionBar().setTitle(null);
+
     }
 }
