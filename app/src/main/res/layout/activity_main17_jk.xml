@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Main7Activity">
+
+    <ImageView
+        android:id="@+id/crz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/corazones2"
+        />
+    <TextView
+        android:id="@+id/textoD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#C74765"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:text="Media \n Manzana"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:src="@drawable/sobreerrado"
+            android:id="@+id/sobre" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MediaManzana@support.com"
+            android:textSize="20dp"
+            android:layout_toRightOf="@id/sobre"
+            android:id="@+id/mail"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/facebook"
+            android:id="@+id/faceico"
+            android:layout_below="@id/sobre"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MediaManzana@support.com"
+            android:textSize="20dp"
+            android:id="@+id/face"
+            android:layout_toRightOf="@id/faceico"
+            android:layout_below="@id/mail"
+            android:layout_marginTop="7dp"
+            />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:src="@drawable/gmail"
+            android:id="@+id/gmail"
+            android:layout_below="@id/faceico"
+            android:layout_marginLeft="7dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="soporteMM@gmail.com"
+            android:textSize="20dp"
+            android:id="@+id/txtgmail"
+            android:layout_below="@id/face"
+            android:layout_toRightOf="@id/gmail"/>
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
