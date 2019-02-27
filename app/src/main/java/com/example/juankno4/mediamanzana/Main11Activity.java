@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Main11Activity extends AppCompatActivity {
 
@@ -48,5 +49,10 @@ public class Main11Activity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void onClick(View view) {
+        Intent s=new Intent(this,Main18ActivityJK.class);
+        startActivity(s);
     }
 }
