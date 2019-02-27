@@ -21,7 +21,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/usuario2" />
+        android:src="@drawable/usuario2"
+        android:id="@+id/perfil"
+        android:onClick="onClick"/>
 <RelativeLayout
     android:layout_width="250dp"
     android:layout_height="wrap_content"
@@ -94,7 +96,8 @@
              android:background="#00ffffff"
              android:paddingLeft="10dp"
              android:src="@drawable/those"
-             android:onClick="onClick"/>
+             android:onClick="onClick"
+             android:id="@+id/galeria"/>
    </LinearLayout>
 
 

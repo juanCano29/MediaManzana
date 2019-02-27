@@ -63,9 +63,18 @@ public class Main11Activity extends AppCompatActivity {
         }
     }
 
-    public void onClick(View view) {
-        Intent s=new Intent(this,Main18ActivityJK.class);
-        startActivity(s);
+    public void onClick(View v) {
+
+        switch (v.getId()){
+            case R.id.perfil:
+                Intent x=new Intent(this,Main19ActivityJK.class);
+                break;
+            case R.id.galeria:
+                Intent s=new Intent(this,Main18ActivityJK.class);
+                startActivity(s);
+                break;
+        }
+
     }
 
     public void  click(View view) {

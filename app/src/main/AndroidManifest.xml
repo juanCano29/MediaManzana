@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main18ActivityJK" />
+        <activity android:name=".Main18ActivityJK"></activity>
         <activity android:name=".Main17ActivityJK" />
         <activity android:name=".Main15ActivityJK" />
         <activity android:name=".Main14ActivityJK" />
@@ -42,12 +42,10 @@
         <activity android:name=".Main7Activity" />
         <activity android:name=".Main8Activity" />
         <activity android:name=".Main9Activity" />
-        <activity android:name=".Main11Activity"/>
+        <activity android:name=".Main11Activity" />
         <activity
             android:name=".Main15ActivityChat"
-            android:theme="@style/AppChat" />
-        <activity android:name=".Main20ActivityMessenger"  android:theme="@style/AppGamma">
-        </activity>
+            android:theme="@style/AppChat"></activity>
     </application>
 
 </manifest>
