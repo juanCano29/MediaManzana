@@ -33,7 +33,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:src="@drawable/sobreerrado"
+
             android:id="@+id/sobre" />
         <TextView
             android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
         <ImageView
             android:layout_width="45dp"
             android:layout_height="35dp"
-            android:src="@drawable/gmail"
+
             android:id="@+id/gmail"
             android:layout_below="@id/faceico"
             android:layout_marginLeft="7dp" />

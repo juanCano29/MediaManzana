@@ -42,7 +42,8 @@ public class Main11Activity extends AppCompatActivity {
                 startActivity(a);
                 return true;
             case R.id.contact:
-
+                Intent b=new Intent(this,Main17ActivityJK.class);
+                startActivity(b);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
