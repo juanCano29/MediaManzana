@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main12Activity"></activity>
+        <activity android:name=".Main13Activity"></activity>
+        <activity android:name=".Main12Activity" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".Main2Activity"
-            android:theme="@style/AppFace"></activity>
+            android:theme="@style/AppFace" />
         <activity
             android:name=".Main3Activity"
             android:theme="@style/AppGamma">
@@ -27,17 +28,17 @@
         </activity>
         <activity
             android:name=".Main4Activity"
-            android:theme="@style/AppGog"></activity>
+            android:theme="@style/AppGog" />
         <activity
             android:name=".Main5Activity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".Main6Activity"
-            android:theme="@style/AppTheme"></activity>
-        <activity android:name=".Main7Activity"></activity>
-        <activity android:name=".Main8Activity"></activity>
-        <activity android:name=".Main9Activity"></activity>
-        <activity android:name=".Main11Activity"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main8Activity" />
+        <activity android:name=".Main9Activity" />
+        <activity android:name=".Main11Activity" />
     </application>
 
 </manifest>

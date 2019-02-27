@@ -4,11 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Main12Activity">
 
-    <ListView
-        android:id="@+id/config"
+    <Button
+        android:id="@+id/priv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="@string/privacidad" />
+
+    <Button
+        android:id="@+id/idi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="@string/idioma" />
+
+    <Button
+        android:id="@+id/noti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="@string/noti" />
 
 </LinearLayout>
