@@ -5,62 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/imack"
     tools:context=".Main15ActivityChat">
-
-    <android.support.v7.widget.Toolbar
-    android:id="@+id/toolbar3"
-    android:layout_width="match_parent"
-    android:layout_height="76dp"
-    android:background="#E90E45"
-    android:minHeight="?attr/actionBarSize"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    >
-
-
-    <ImageView
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:src="@drawable/usuario2"
-        />
-
-
-    <LinearLayout
-        android:paddingTop="10dp"
-        android:paddingLeft="10dp"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Miriam Alexandra"
-            android:textColor="@color/colorBlanco"
-            android:textSize="20sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Conectada"
-            android:textColor="#fff"
-            android:textSize="16sp" />
-    </LinearLayout>
-</android.support.v7.widget.Toolbar><LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <EditText
-        android:paddingLeft="10dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="447dp"
-        android:layout_width="308dp"
-        android:layout_height="37dp"
-        android:background="@drawable/chat"/>
-
-            </LinearLayout>
-
-
 
 
 </LinearLayout>
