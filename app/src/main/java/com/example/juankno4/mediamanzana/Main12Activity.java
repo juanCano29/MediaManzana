@@ -28,7 +28,7 @@ public class Main12Activity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.priv:
-                Intent s = new Intent(this, Main13Activity.class);
+                Intent s = new Intent(this, Main14ActivityJK.class);
                 startActivity(s);
                 break;
             case R.id.idi:
@@ -36,7 +36,7 @@ public class Main12Activity extends AppCompatActivity implements View.OnClickLis
                 startActivity(x);
                 break;
             case R.id.noti:
-                Intent y = new Intent(this, Main13Activity.class);
+                Intent y = new Intent(this, Main15ActivityJK.class);
                 startActivity(y);
                 break;
 
