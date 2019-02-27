@@ -1,27 +1,46 @@
 package com.example.juankno4.mediamanzana;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
-public class Main12Activity extends AppCompatActivity {
+public class Main12Activity extends AppCompatActivity implements View.OnClickListener {
+    Button btn1, btn2, btn3;
 
-    ListView lt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main12);
+        btn1 = findViewById(R.id.priv);
+        btn2 = findViewById(R.id.idi);
+        btn3 = findViewById(R.id.noti);
 
-        lt=(ListView)findViewById(R.id.config);
+        btn1.setOnClickListener(this);
+        btn2.setOnClickListener(this);
+        btn3.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.priv:
+                Intent s = new Intent(this, Main14ActivityJK.class);
+                startActivity(s);
+                break;
+            case R.id.idi:
+                Intent x = new Intent(this, Main13Activity.class);
+                startActivity(x);
+                break;
+            case R.id.noti:
+                Intent y = new Intent(this, Main15ActivityJK.class);
+                startActivity(y);
+                break;
 
 
-//        para generar un listview generico
-        String configuracion[]={"Acuerdos de privacidad y seguridad","idioma","notificaciones"};
-
-//        para contruir un adaptador se necesita el diseño y el
-        ArrayAdapter<String> aa=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,configuracion);
-
-        lt.setAdapter(aa);
+        }
     }
 }

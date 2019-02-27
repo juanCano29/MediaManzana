@@ -4,4 +4,7 @@
     <string name="acuerdo">Lea los</string>
     <string name="condiciones"> <u> acuerdos  y politicas de \n  privacidad </u></string>
     <string name="registrer">Regístrate con tu \n  correo</string>
+    <string name="privacidad">Acuerdos de privacidad y seguridad</string>
+    <string name="idioma">idioma</string>
+    <string name="noti">notificaiones</string>
 </resources>
