@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/imack"
     tools:context=".Main15ActivityChat">
 
-
-
-
-<android.support.v7.widget.Toolbar
-    android:id="@+id/toolbar2"
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar3"
     android:layout_width="match_parent"
     android:layout_height="76dp"
     android:background="#E90E45"
     android:minHeight="?attr/actionBarSize"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    app:popupTheme="@style/Theme.AppCompat.Light"
-    app:buttonGravity="top|bottom"
     >
 
 
@@ -30,6 +26,7 @@
 
 
     <LinearLayout
+        android:paddingTop="10dp"
         android:paddingLeft="10dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -45,14 +42,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Conectada"
-            android:textSize="16sp"
-            android:textColor="#fff" />
+            android:textColor="#fff"
+            android:textSize="16sp" />
     </LinearLayout>
+</android.support.v7.widget.Toolbar><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</android.support.v7.widget.Toolbar>
+    <EditText
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="447dp"
+        android:layout_width="308dp"
+        android:layout_height="37dp"
+        android:background="@drawable/chat"/>
+
+            </LinearLayout>
 
 
 
 
-
-</ScrollView>
+</LinearLayout>

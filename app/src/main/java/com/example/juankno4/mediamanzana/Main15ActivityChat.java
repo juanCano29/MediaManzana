@@ -2,6 +2,7 @@ package com.example.juankno4.mediamanzana;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 
 public class Main15ActivityChat extends AppCompatActivity {
 
@@ -9,5 +10,8 @@ public class Main15ActivityChat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main15_chat);
+        Toolbar tool = findViewById(R.id.toolbar2);
+        setSupportActionBar(tool);
+        getSupportActionBar().setTitle(null);
     }
 }
