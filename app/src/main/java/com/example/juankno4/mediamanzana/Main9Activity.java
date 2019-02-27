@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 
-public class Main9Activity extends AppCompatActivity {
+public class Main9Activity extends AppCompatActivity implements View.OnClickListener {
  ImageView Image1,Image2,Image3,Image4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,4 +91,10 @@ public class Main9Activity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onClick(View v) {
+        Intent nt = new Intent(Main9Activity.this,Main20ActivityMessenger.class);
+        startActivity(nt);
+
+    }
 }

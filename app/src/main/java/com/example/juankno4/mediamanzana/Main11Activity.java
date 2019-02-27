@@ -67,4 +67,9 @@ public class Main11Activity extends AppCompatActivity {
         Intent s=new Intent(this,Main18ActivityJK.class);
         startActivity(s);
     }
+
+    public void  click(View view) {
+        Intent cgt = new Intent(Main11Activity.this,Main20ActivityMessenger.class);
+        startActivity(cgt);
+    }
 }
