@@ -60,6 +60,7 @@
             android:layout_toRightOf="@id/faceico"
             android:layout_below="@id/mail"
             android:layout_marginTop="7dp"
+            android:layout_marginLeft="17dp"
             />
 
         <ImageView
@@ -76,7 +77,8 @@
             android:textSize="20dp"
             android:id="@+id/txtgmail"
             android:layout_below="@id/face"
-            android:layout_toRightOf="@id/gmail"/>
+            android:layout_toRightOf="@id/gmail"
+            android:layout_marginLeft="12dp"/>
     </RelativeLayout>
 
 

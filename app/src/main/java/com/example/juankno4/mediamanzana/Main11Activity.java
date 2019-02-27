@@ -8,11 +8,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 
 public class Main11Activity extends AppCompatActivity {
-   ImageButton btnm;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,15 +18,7 @@ public class Main11Activity extends AppCompatActivity {
         Toolbar tool1 = findViewById(R.id.toolbar2);
         setSupportActionBar(tool1);
         getSupportActionBar().setTitle(null);
-        btnm = findViewById(R.id.btnmensajes);
 
-        btnm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(Main11Activity.this,Main15ActivityChat.class);
-                startActivity(it);
-            }
-        });
 
     }
     @Override
@@ -59,5 +49,10 @@ public class Main11Activity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void onClick(View view) {
+        Intent s=new Intent(this,Main18ActivityJK.class);
+        startActivity(s);
     }
 }

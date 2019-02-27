@@ -93,7 +93,8 @@
              android:layout_height="wrap_content"
              android:background="#00ffffff"
              android:paddingLeft="10dp"
-             android:src="@drawable/those" />
+             android:src="@drawable/those"
+             android:onClick="onClick"/>
    </LinearLayout>
 
 
